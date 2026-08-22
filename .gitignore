@@ -1,76 +1,104 @@
-# ==============================
+#################################
 # Unreal Engine
-# ==============================
+#################################
 
-# Generated project files
+# UE 编译生成目录
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# UE 自动生成的解决方案 / 项目文件
+*.sln
+*.slnx
 *.VC.db
 *.opensdf
 *.opendb
 *.sdf
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
-*.code-workspace
 
-# Visual Studio
-.vs/
-.vscode/
+# UnrealBuildTool 生成文件
+*.modules
+*.target
 
+
+#################################
 # JetBrains Rider
+#################################
+
+# Rider 项目配置 / 缓存
 .idea/
 .idea/**
 
-# Unreal generated directories
-Binaries/
-Build/
-DerivedDataCache/
-Intermediate/
-Saved/
+# Rider 用户配置
+*.sln.iml
+*.sln.DotSettings.user
+*.uproject.DotSettings.user
 
-# Plugin generated directories
+
+#################################
+# Visual Studio
+# 即使主要使用 Rider，UE 有时仍会生成这些
+#################################
+
+.vs/
+
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+
+#################################
+# Visual Studio Code
+#################################
+
+.vscode/
+**/.history/
+
+
+#################################
+# UE 编译临时产物
+#################################
+
+*.pdb
+*.obj
+*.exp
+*.ilk
+*.iobj
+*.ipdb
+
+# 日志 / 临时文件
+*.log
+*.tmp
+*.temp
+
+# 备份文件
+*~
+*.bak
+*.backup
+
+
+#################################
+# 插件生成目录
+#################################
+
 Plugins/*/Binaries/
 Plugins/*/Intermediate/
 Plugins/*/DerivedDataCache/
 Plugins/*/Saved/
 
-# ==============================
-# Unreal build artifacts
-# ==============================
 
-*.pdb
-*.obj
-*.dll
-*.exe
-*.lib
-*.exp
-*.ilk
-*.iobj
-*.ipdb
-*.log
-*.tmp
-
-# UnrealBuildTool generated files
-*.modules
-*.target
-
-# ==============================
-# Operating System
-# ==============================
-
+#################################
 # Windows
+#################################
+
 Thumbs.db
 Desktop.ini
 
+
+#################################
 # macOS
+#################################
+
 .DS_Store
-
-# ==============================
-# Temporary / Backup files
-# ==============================
-
-*~
-*.bak
-*.backup
-*.tmp
-*.temp
