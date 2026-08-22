@@ -1,0 +1,76 @@
+# ==============================
+# Unreal Engine
+# ==============================
+
+# Generated project files
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+
+# Visual Studio
+.vs/
+.vscode/
+
+# JetBrains Rider
+.idea/
+.idea/**
+
+# Unreal generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugin generated directories
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/DerivedDataCache/
+Plugins/*/Saved/
+
+# ==============================
+# Unreal build artifacts
+# ==============================
+
+*.pdb
+*.obj
+*.dll
+*.exe
+*.lib
+*.exp
+*.ilk
+*.iobj
+*.ipdb
+*.log
+*.tmp
+
+# UnrealBuildTool generated files
+*.modules
+*.target
+
+# ==============================
+# Operating System
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==============================
+# Temporary / Backup files
+# ==============================
+
+*~
+*.bak
+*.backup
+*.tmp
+*.temp
